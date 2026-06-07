@@ -1,0 +1,20 @@
+{
+  "method": "grid",
+  "best_config": {
+    "model": "gru",
+    "seq_len": 12,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "batch_size": 128,
+    "optimizer": "rmsprop",
+    "activation": "relu"
+  },
+  "validation_metrics": {
+    "MAE": 27.5895,
+    "RMSE": 59.4303,
+    "MAPE": 27.8762,
+    "R2": 0.6216
+  }
+}

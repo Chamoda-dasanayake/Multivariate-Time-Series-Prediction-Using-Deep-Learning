@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE / tool artifacts
+.claude/
+.antigravityignore
+get-pip.py
+
+# Generated artifacts (re-created by `python src/train.py`)
+data/processed/

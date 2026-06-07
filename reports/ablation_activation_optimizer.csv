@@ -1,0 +1,7 @@
+factor,model,seq_len,hidden_size,num_layers,dropout,lr,batch_size,optimizer,activation,MAE,RMSE,MAPE,R2,epochs_used
+optimizer=adam,gru,12,64,2,0.3,0.0005,128,adam,relu,27.2201,60.9851,25.7025,0.6016,23
+optimizer=rmsprop,gru,12,64,2,0.3,0.0005,128,rmsprop,relu,27.6162,60.8878,26.2395,0.6028,25
+optimizer=sgd,gru,12,64,2,0.3,0.0005,128,sgd,relu,29.6355,68.4569,27.7102,0.4979,25
+activation=relu,gru,12,64,2,0.3,0.0005,128,adam,relu,27.2201,60.9851,25.7025,0.6016,23
+activation=tanh,gru,12,64,2,0.3,0.0005,128,adam,tanh,28.1107,61.7278,27.2084,0.5918,22
+activation=gelu,gru,12,64,2,0.3,0.0005,128,adam,gelu,27.0173,61.6519,24.4945,0.5928,22

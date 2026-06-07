@@ -1,0 +1,20 @@
+# Core data stack
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+
+# Visualisation
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Classical ML / metrics / scaling / baselines
+scikit-learn==1.7.2
+
+# Time-series analysis (autocorrelation for lag selection)
+statsmodels==0.14.6
+
+# Deep learning (CPU build works fine; GPU optional)
+torch==2.11.0
+
+# Model / scaler persistence
+joblib==1.5.3
